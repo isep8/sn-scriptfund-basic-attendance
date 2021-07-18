@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_666565_basicatt2.user" name="x_666565_basicatt2.user">7bbdbe2b1b11301038df2134604bcb64</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-18 13:38:08</sys_created_on>
+        <sys_id>fbbd7e2f1b11301038df2134604bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7bbdbe2b1b11301038df2134604bcb64</sys_name>
+        <sys_package display_value="Basic Attendance2" source="x_666565_basicatt2">8b3dbeab1b11301038df2134604bcb58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Basic Attendance2">8b3dbeab1b11301038df2134604bcb58</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fbbd7e2f1b11301038df2134604bcba9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-18 13:38:08</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
