@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Attendance" max_length="40" name="x_666565_basicatt2_attendance" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Event" max_length="60" name="event" type="string"/>
-        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Event" max_length="60" name="event" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enable Townhall" sequence="0" value="enable_townhall"/>
+                <element inactive_on_update="false" label="Induction with HR" sequence="1" value="induction_with_hr"/>
+                <element inactive_on_update="false" label="Krist Yong's Birthday Party" sequence="2" value="kybp"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" reference_qual="javascript: RefQual.getActiveUsers('itil');" type="reference" use_reference_qualifier="advanced"/>
         <index name="index">
             <element name="user"/>
         </index>

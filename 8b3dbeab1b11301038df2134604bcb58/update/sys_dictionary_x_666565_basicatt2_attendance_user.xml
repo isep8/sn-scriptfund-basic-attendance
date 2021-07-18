@@ -6,7 +6,7 @@
         <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>User</column_label>
@@ -39,7 +39,7 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript: RefQual.getActiveUsers('itil');</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
@@ -49,20 +49,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-18 13:39:26</sys_created_on>
         <sys_id>e20e366f1b11301038df2134604bcb77</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>User</sys_name>
         <sys_package display_value="Basic Attendance2" source="x_666565_basicatt2">8b3dbeab1b11301038df2134604bcb58</sys_package>
         <sys_policy/>
         <sys_scope display_value="Basic Attendance2">8b3dbeab1b11301038df2134604bcb58</sys_scope>
         <sys_update_name>sys_dictionary_x_666565_basicatt2_attendance_user</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-18 13:39:26</sys_updated_on>
+        <sys_updated_on>2021-07-18 16:21:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>
